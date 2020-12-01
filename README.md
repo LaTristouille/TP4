@@ -3,10 +3,15 @@ Created with CodeSandbox
 
 ## 1) Décrire le rôle de chaque fonction (une phrase par fonction).
 La fonction validateEmail() permet de vérifier qu’une adresse mail a bien été entrée, en vérifiant l’utilisation d’un @ et de caractères avant et après ce @ et si ces conditions ne sont pas vérifiées, elle renvoie une phrase indiquant qu’il faut remplir d’une adresse mail.
+
 La fonction validateName() permet de vérifier qu’un nom à bien été entrée et si cette condition n’est pas vérifiée, elle renvoie une phrase indiquant qu’il faut remplir d’un nom. 
+
 La fonction NameField() permet d'appeler la fonction validateName et d’afficher en fonction du résultat le message indiquant qu’il faut remplir le nom. 
+
 La fonction EmailField() permet la même chose mais pour l’email, dans les deux cas, le message se réinitialise à chaque entrée. 
+
 La fonction Inscription() permet d’initialiser une constante qui vérifie à la fois qu’un nom à été rentrée et qu’un email a été rentré, cela permettra de rendre le bouton submit cliquable.
+
 La fonction submit() permet de dire que l’on a bien cliqué sur le bouton submit, elle est utilisée lorsque l’on clique sur ce bouton.
 
 ## 2) Quelles sont les states et les props mis en jeu ? Indiquez leur valeur par défaut.
